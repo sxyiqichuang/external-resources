@@ -1,12 +1,12 @@
 module.exports = {
     'en': {
-        'ironKit.description': 'Yiqichuang iron kit robot.',
-        'QDPRobot.description': 'QDP robot.',
-        'QDPRobotC02.description': 'QDP robot.'
+        'ironKit.name': 'Engineering Vehicle Robot Kit',
+        'ironKit.description': 'Yiqichuang engineering vehicle robot kit.',
+        'warden.description': 'Yiqichuang warden robot kit.'
     },
     'zh-cn': {
-        'ironKit.description': '意启创金属套件机器人。',
-        'QDPRobot.description': '齐护机器人。',
-        'QDPRobotC02.description': '齐护机器人 C02。'
+        'ironKit.name': '工程车机器人套件',
+        'ironKit.description': '意启创工程车机器人套件。',
+        'warden.description': '意启守望者机器人套件。'
     }
 };

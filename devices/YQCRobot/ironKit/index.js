@@ -1,13 +1,15 @@
 const ironKit = formatMessage => ({
-    name: 'IronKit',
+    name: formatMessage({
+        id: 'ironKit.name',
+        default: 'Engineering Vehicle Robot Kit'
+    }),
     deviceId: 'ironKit_arduinoUno',
-    manufactor: 'YQC Robot',
+    manufactor: '意启创机器人',
     leanMore: 'https://item.taobao.com/item.htm?id=628120335101',
     iconURL: 'asset/ironKit.png',
     description: formatMessage({
         id: 'ironKit.description',
-        default: 'Yiqichuang iron kit robot.',
-        description: 'Description for the YQC iron kit device'
+        default: 'Yiqichuang engineering vehicle robot kit.'
     }),
     disabled: false,
     bluetoothRequired: false,

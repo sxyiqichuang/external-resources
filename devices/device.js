@@ -1,4 +1,7 @@
 module.exports = [
+    // Third party
+    'warden_arduinoUno',
+    'ironKit_arduinoUno',
     // Buid-in device
     'arduinoUno',
     'arduinoNano',
@@ -8,10 +11,5 @@ module.exports = [
     'arduinoEsp32',
     'arduinoEsp8266',
     'microbit',
-    'microbitV2',
-    'makeyMakey',
-    // Third party
-    'ironKit_arduinoUno',
-    'QDPRobot_arduinoUnoUltra',
-    'QDPRobotC02_arduinoEsp32'
+    'microbitV2'
 ];

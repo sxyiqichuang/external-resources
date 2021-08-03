@@ -1,11 +1,11 @@
-const warden = formatMessage => ({
+const wardenKit = formatMessage => ({
     name: 'Warden',
-    deviceId: 'warden_arduinoUno',
+    deviceId: 'wardenKit_arduinoUno',
     manufactor: '意启创机器人',
     leanMore: 'https://item.taobao.com/item.htm?id=589703871287',
-    iconURL: 'asset/warden.png',
+    iconURL: 'asset/wardenKit.png',
     description: formatMessage({
-        id: 'warden.description',
+        id: 'wardenKit.description',
         default: 'Yiqichuang warden robot kit.'
     }),
     disabled: false,
@@ -16,14 +16,14 @@ const warden = formatMessage => ({
     internetConnectionRequired: false,
     launchPeripheralConnectionFlow: true,
     useAutoScan: false,
-    connectionIconURL: 'asset/warden-illustration.svg',
-    connectionSmallIconURL: 'asset/warden-small.svg',
+    connectionIconURL: 'asset/wardenKit-illustration.svg',
+    connectionSmallIconURL: 'asset/wardenKit-small.svg',
     programMode: ['realtime', 'upload'],
     programLanguage: ['block', 'cpp'],
     tags: ['arduino', 'kit'],
-    deviceExtensions: ['warden'],
+    deviceExtensions: ['wardenKit'],
     deviceExtensionsCompatible: 'arduinoUno',
     helpLink: 'https://www.sxyiqichuang.com/'
 });
 
-module.exports = warden;
+module.exports = wardenKit;

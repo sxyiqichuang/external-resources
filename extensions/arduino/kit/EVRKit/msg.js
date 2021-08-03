@@ -3,8 +3,8 @@
 /* eslint-disable require-jsdoc */
 function addMsg (Blockly) {
     Object.assign(Blockly.ScratchMsgs.locales.en, {
-        IRON_KIT_CATEGORY: 'Iron Kit',
-        IRONKIT_INIT: 'init iron kit',
+        IRON_KIT_CATEGORY: 'EVR Kit',
+        IRONKIT_INIT: 'init engineering vehicle robot kit',
         IRONKIT_SETSERVODEGREE: 'set servo %1 degree %2',
         IRONKIT_SETMOTORSPEED: 'set motor %1 direction %2 speed %3',
         IRONKIT_FORWARD: 'forward',

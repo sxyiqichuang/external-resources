@@ -1,7 +1,7 @@
 module.exports = [
     // Third party
-    'warden_arduinoUno',
-    'ironKit_arduinoUno',
+    'wardenKit_arduinoUno',
+    'EVRKit_arduinoUno',
     // Buid-in device
     'arduinoUno',
     'arduinoNano',

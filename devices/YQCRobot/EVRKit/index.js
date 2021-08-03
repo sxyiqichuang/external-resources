@@ -1,14 +1,14 @@
-const ironKit = formatMessage => ({
+const EVRKit = formatMessage => ({
     name: formatMessage({
-        id: 'ironKit.name',
+        id: 'EVRKit.name',
         default: 'Engineering Vehicle Robot Kit'
     }),
-    deviceId: 'ironKit_arduinoUno',
+    deviceId: 'EVRKit_arduinoUno',
     manufactor: '意启创机器人',
     leanMore: 'https://item.taobao.com/item.htm?id=628120335101',
-    iconURL: 'asset/ironKit.png',
+    iconURL: 'asset/EVRKit.png',
     description: formatMessage({
-        id: 'ironKit.description',
+        id: 'EVRKit.description',
         default: 'Yiqichuang engineering vehicle robot kit.'
     }),
     disabled: false,
@@ -19,14 +19,14 @@ const ironKit = formatMessage => ({
     internetConnectionRequired: false,
     launchPeripheralConnectionFlow: true,
     useAutoScan: false,
-    connectionIconURL: 'asset/ironKit-illustration.svg',
-    connectionSmallIconURL: 'asset/ironKit-small.svg',
+    connectionIconURL: 'asset/EVRKit-illustration.svg',
+    connectionSmallIconURL: 'asset/EVRKit-small.svg',
     programMode: ['realtime', 'upload'],
     programLanguage: ['block', 'cpp'],
     tags: ['arduino', 'kit'],
-    deviceExtensions: ['ironKit', 'apds9960'],
+    deviceExtensions: ['EVRKit', 'apds9960'],
     deviceExtensionsCompatible: 'arduinoUno',
     helpLink: 'https://www.sxyiqichuang.com/'
 });
 
-module.exports = ironKit;
+module.exports = EVRKit;

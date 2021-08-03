@@ -1,8 +1,9 @@
-const warden = () => ({
-    name: null,
-    extensionId: 'warden',
+const EVRKit = formatMessage => ({
+    name: 'Iron Kit',
+    extensionId: 'EVRKit',
     version: '1.0.0',
-    supportDevice: ['warden_arduinoUno'],
+    supportDevice: ['EVRKit_arduinoUno'],
+    author: 'ArthurZheng',
     featured: true,
     hide: true,
     blocks: 'blocks.js',
@@ -13,4 +14,4 @@ const warden = () => ({
     helpLink: 'https://www.sxyiqichuang.com'
 });
 
-module.exports = warden;
+module.exports = EVRKit;

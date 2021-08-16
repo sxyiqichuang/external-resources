@@ -28,6 +28,8 @@ function addToolbox () {
     </block>
     <block type="warden_getTouch" id="warden_getTouch"></block>
     <sep gap="36"/>
+    <block type="warden_getUltrasonic" id="warden_getUltrasonic"></block>
+    <sep gap="36"/>
     <block type="warden_readPS2" id="warden_readPS2"></block>
     <block type="warden_getPS2Pressed" id="warden_getPS2Pressed"></block>
     <block type="warden_getPS2Released" id="warden_getPS2Released"></block>

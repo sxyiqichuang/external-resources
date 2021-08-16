@@ -100,7 +100,7 @@ function addGenerator (Blockly) {
         const port = this.getFieldValue('PORT');
 
         Blockly.Arduino.includes_.warden_init = '#include <SSRob.h>';
-        Blockly.Arduino.includes_.warden_getUltrasonic = '#include <SSRob_Ultrasonic.h.h>';
+        Blockly.Arduino.includes_.warden_getUltrasonic = '#include <SSRob_Ultrasonic.h>';
         Blockly.Arduino.definitions_[`warden_getUltrasonic${port}`] =
             `SSRob_Ultrasonic ultrasonic_${port}(${port});`;
 

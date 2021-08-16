@@ -83,8 +83,8 @@ function addBlocks (Blockly) {
                         type: 'field_dropdown',
                         name: 'STATE',
                         options: [
-                            [Blockly.Msg.WARDEN_STATE_ON, '1'],
-                            [Blockly.Msg.WARDEN_STATE_OFF, '0']
+                            [Blockly.Msg.WARDEN_STATE_ON, '0'],
+                            [Blockly.Msg.WARDEN_STATE_OFF, '1']
                         ]
                     }
                 ],
@@ -109,8 +109,8 @@ function addBlocks (Blockly) {
                         type: 'field_dropdown',
                         name: 'STATE',
                         options: [
-                            [Blockly.Msg.WARDEN_STATE_ON, '0'],
-                            [Blockly.Msg.WARDEN_STATE_OFF, '1']
+                            [Blockly.Msg.WARDEN_STATE_ON, '1'],
+                            [Blockly.Msg.WARDEN_STATE_OFF, '0']
                         ]
                     }
                 ],
@@ -143,8 +143,8 @@ function addBlocks (Blockly) {
                         type: 'field_dropdown',
                         name: 'COLOR',
                         options: [
-                            [Blockly.Msg.WARDEN_COLOR_BLACK, '0'],
-                            [Blockly.Msg.WARDEN_COLOR_WHITE, '1']
+                            [Blockly.Msg.WARDEN_COLOR_BLACK, '1'],
+                            [Blockly.Msg.WARDEN_COLOR_WHITE, '0']
                         ]
                     }
                 ],
@@ -182,8 +182,8 @@ function addBlocks (Blockly) {
                         type: 'field_dropdown',
                         name: 'COLOR',
                         options: [
-                            [Blockly.Msg.WARDEN_COLOR_BLACK, '0'],
-                            [Blockly.Msg.WARDEN_COLOR_WHITE, '1']
+                            [Blockly.Msg.WARDEN_COLOR_BLACK, '1'],
+                            [Blockly.Msg.WARDEN_COLOR_WHITE, '0']
                         ]
                     }
                 ],
@@ -216,6 +216,24 @@ function addBlocks (Blockly) {
                 colour: color,
                 secondaryColour: secondaryColour,
                 extensions: ['output_boolean']
+            });
+        }
+    };
+
+    Blockly.Blocks.warden_getUltrasonic = {
+        init: function () {
+            this.jsonInit({
+                message0: Blockly.Msg.WARDEN_GETULTRASONIC,
+                args0: [
+                    {
+                        type: 'field_dropdown',
+                        name: 'PORT',
+                        options: digitalPort
+                    }
+                ],
+                colour: color,
+                secondaryColour: secondaryColour,
+                extensions: ['output_number']
             });
         }
     };
